@@ -36,8 +36,8 @@ public class UserServerImpl implements UserServer {
 
     @Override
     @Transactional
-    public void update(User user) {
-        userDAO.update(user);
+    public void update(User user, int id) {
+        userDAO.update(user, id);
     }
 
     @Override
