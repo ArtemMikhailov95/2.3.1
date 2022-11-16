@@ -1,5 +1,6 @@
 package web.servers;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import web.dao.UserDAO;
@@ -8,11 +9,12 @@ import web.models.User;
 import java.util.List;
 
 @Service
-@Transactional(readOnly = true)
+@Transactional
 public class UserServerImpl implements UserServer {
 
     private final UserDAO userDAO;
 
+    @Autowired
     public UserServerImpl(UserDAO userDAO) {
         this.userDAO = userDAO;
     }
@@ -24,11 +26,13 @@ public class UserServerImpl implements UserServer {
     }
 
     @Override
+    @Transactional
     public User read(int id) {
         return userDAO.read(id);
     }
 
     @Override
+    @Transactional
     public List<User> readAll() {
         return userDAO.readAll();
     }
