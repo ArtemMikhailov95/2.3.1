@@ -8,6 +8,7 @@ import web.models.User;
 import java.util.List;
 
 @Service
+@Transactional(readOnly = true)
 public class UserServerImpl implements UserServer {
 
     private final UserDAO userDAO;
@@ -23,13 +24,11 @@ public class UserServerImpl implements UserServer {
     }
 
     @Override
-    @Transactional
     public User read(int id) {
         return userDAO.read(id);
     }
 
     @Override
-    @Transactional
     public List<User> readAll() {
         return userDAO.readAll();
     }

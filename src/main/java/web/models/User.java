@@ -3,6 +3,7 @@ package web.models;
 import javax.persistence.*;
 import java.util.Objects;
 
+@Table(name = "users")
 @Entity
 public class User {
     @Id
@@ -10,7 +11,7 @@ public class User {
     private int id;
     @Column
     private String name;
-    @Column
+    @Column(name = "last_name")
     private String lastName;
     @Column
     private int age;

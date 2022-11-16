@@ -1,13 +1,13 @@
 
 #MySQL properties
 driver = com.mysql.cj.jdbc.Driver
-url = jdbc:mysql://localhost:3306/spring_hiber?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+url = jdbc:mysql://localhost:3306/spring_hiber
 username = root
 password = root
 
 #Hibernate properties
 hibernate.show_sql = true
 hibernate.hnm2ddl.auto = update
-hibernate.dialect = org.hibernate.dialect.MySQLDialect
+hibernate.dialect = org.hibernate.dialect.MySQL5Dialect
 
 

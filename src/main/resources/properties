@@ -8,6 +8,6 @@ password = root
 #Hibernate properties
 hibernate.show_sql = true
 hibernate.hnm2ddl.auto = update
-hibernate.dialect = org.hibernate.dialect.MySQLDialect
+hibernate.dialect = org.hibernate.dialect.MySQL5Dialect
 
 
