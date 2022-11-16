@@ -1,6 +1,7 @@
 package web.config;
 
 import org.hibernate.jpa.HibernatePersistenceProvider;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -19,13 +20,13 @@ import javax.sql.DataSource;
 import java.util.Properties;
 
 @Configuration
-@PropertySource("classpath:properties")
+@PropertySource("classpath:properties.properties")
 @EnableTransactionManagement
 @ComponentScan(value = "web")
 public class CreateConnection {
 
     private final Environment env;
-
+    @Autowired
     public CreateConnection(Environment env) {
         this.env = env;
     }
