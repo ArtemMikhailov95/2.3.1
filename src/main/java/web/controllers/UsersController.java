@@ -19,7 +19,7 @@ public class UsersController {
         this.userServer = userServer;
     }
 
-    @GetMapping(value = "/readAll")
+    @GetMapping(value = "/")
     public String getUsers(Model model) {
         model.addAttribute("users", userServer.readAll());
         return "users/readAll";
