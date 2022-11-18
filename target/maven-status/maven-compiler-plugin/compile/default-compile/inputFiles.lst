@@ -1,8 +1,9 @@
-C:\Users\Admin\IdeaProjects\PP_2_2_1_spring_hibernate\2.2.1. spring_hibernate\src\main\java\hiber\MainApp.java
-C:\Users\Admin\IdeaProjects\PP_2_2_1_spring_hibernate\2.2.1. spring_hibernate\src\main\java\hiber\service\UserService.java
-C:\Users\Admin\IdeaProjects\PP_2_2_1_spring_hibernate\2.2.1. spring_hibernate\src\main\java\hiber\service\UserServiceImp.java
-C:\Users\Admin\IdeaProjects\PP_2_2_1_spring_hibernate\2.2.1. spring_hibernate\src\main\java\hiber\dao\UserDaoImp.java
-C:\Users\Admin\IdeaProjects\PP_2_2_1_spring_hibernate\2.2.1. spring_hibernate\src\main\java\hiber\dao\UserDao.java
-C:\Users\Admin\IdeaProjects\PP_2_2_1_spring_hibernate\2.2.1. spring_hibernate\src\main\java\hiber\config\AppConfig.java
-C:\Users\Admin\IdeaProjects\PP_2_2_1_spring_hibernate\2.2.1. spring_hibernate\src\main\java\hiber\model\Car.java
-C:\Users\Admin\IdeaProjects\PP_2_2_1_spring_hibernate\2.2.1. spring_hibernate\src\main\java\hiber\model\User.java
+C:\Users\Admin\IdeaProjects\PP_2_3_1_spring-CRUD\src\main\java\web\dao\UserDAO.java
+C:\Users\Admin\IdeaProjects\PP_2_3_1_spring-CRUD\src\main\java\web\servers\UserServerImpl.java
+C:\Users\Admin\IdeaProjects\PP_2_3_1_spring-CRUD\src\main\java\web\dao\UserDAOImpl.java
+C:\Users\Admin\IdeaProjects\PP_2_3_1_spring-CRUD\src\main\java\web\servers\UserServer.java
+C:\Users\Admin\IdeaProjects\PP_2_3_1_spring-CRUD\src\main\java\web\models\User.java
+C:\Users\Admin\IdeaProjects\PP_2_3_1_spring-CRUD\src\main\java\web\controllers\UsersController.java
+C:\Users\Admin\IdeaProjects\PP_2_3_1_spring-CRUD\src\main\java\web\config\WebConfig.java
+C:\Users\Admin\IdeaProjects\PP_2_3_1_spring-CRUD\src\main\java\web\config\AppInit.java
+C:\Users\Admin\IdeaProjects\PP_2_3_1_spring-CRUD\src\main\java\web\config\CreateConnection.java
